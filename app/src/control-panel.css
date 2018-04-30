@@ -1,0 +1,57 @@
+.control-panel {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: absolute;
+    padding: 20px 20px;
+    top: 60px;
+    bottom: 60px;
+    left: 60px;
+    z-index: 10;
+    border-radius: 6px;
+    box-shadow: 0 0 40px 2px rgba(0, 0, 0, 0.8);
+    background-color: white;
+}
+
+.title {
+    text-align: center;
+    color: green;
+    margin-bottom: 10px;
+}
+
+.search-bar {
+  margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: rgba(198, 226, 255, 0.5);
+    border-radius: 8px;
+    font-weight: 400;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.search-button:hover {
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.4);
+  color: rgba(0,0,0,0.5)
+}
+
+.empty-input-war {
+    margin-top: 5px;
+    color: red;
+    font-size: 14;
+    text-align: center;
+}
+
+.empty-input-war.active {
+    display: block;
+}
+
+.empty-input-war.inactive {
+    display: none;
+}

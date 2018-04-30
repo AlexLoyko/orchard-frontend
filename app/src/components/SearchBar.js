@@ -6,8 +6,7 @@ const SearchBar = (props) => {
             <div className="search-bar">
                 <input
                     onChange={(e) => {
-                    props.onInputValueChanged(e.target.value);
-                    //console.log(e.target.value);
+                      props.onInputValueChanged(e.target.value);
                     }}
                     placeholder="Enter your cuisine"
                 />

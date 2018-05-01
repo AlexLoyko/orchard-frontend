@@ -1,4 +1,6 @@
 # orchard-frontend
+
+# My implementation of the data visualization of the NYC restaurant inspection data.
 ![Top 10 places on the map for Thai cuisine](https://github.com/AlexLoyko/orchard-frontend/blob/master/pic1.png)
 ![Backend Response on Thai](https://github.com/AlexLoyko/orchard-frontend/blob/master/pic2.png)
 ![Top 10 places on the map for Russian cuisine](https://github.com/AlexLoyko/orchard-frontend/blob/master/pic3.png)

@@ -12,7 +12,7 @@ NOTE: TO MAKE THE APP RUN LOCALLY WITH THE BACKEND, changes need to be made.
 
 1) Clone https://github.com/AlexLoyko/orchard-backend
 2) Follow the instructions in that repo to get the backend to run locally.
-3) Change the line const BEST_PLACES_BY_GRADE_AND_CUISINE_API = 'http://159.65.172.142:5000/best-places' in components/ControlPanel.js to point to localhost and the appropriate port such as "http://localhost:PORT/best-places"
+3) Change the line <br/> `const BEST_PLACES_BY_GRADE_AND_CUISINE_API = 'http://159.65.172.142:5000/best-places' in components/ControlPanel.js`<br/> to point to localhost and the appropriate port such as "http://localhost:PORT/best-places"
 
 # To install:
 1. Clone the repo

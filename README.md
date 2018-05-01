@@ -3,12 +3,13 @@
 NOTE: Hosted version of the app:
 http://159.65.172.142:3000
 
-IMPORTANT:
+#IMPORTANT:
 In order to run properly, enable CORS Allow-Control-Allow-Origin.<br/>
 In Google Chrome, can be done easily by a plugin: 
 https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en
 
-NOTE: TO MAKE THE APP RUN LOCALLY WITH THE BACKEND, changes need to be made.
+# NOTE: 
+TO MAKE THE APP RUN LOCALLY WITH THE BACKEND, changes need to be made. <br/>
 
 1) Clone https://github.com/AlexLoyko/orchard-backend
 2) Follow the instructions in that repo to get the backend to run locally.

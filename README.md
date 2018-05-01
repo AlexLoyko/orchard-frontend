@@ -1,6 +1,6 @@
 # orchard-frontend
 
-NOTE: Hosted version of the app:
+# Hosted version of the app:
 http://159.65.172.142:3000
 
 # IMPORTANT:

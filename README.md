@@ -5,6 +5,7 @@ http://159.65.172.142:3000
 
 # IMPORTANT:
 In order to run properly, enable CORS Allow-Control-Allow-Origin.<br/>
+Enable <b>cross-origin resource sharing</b>!!!
 In Google Chrome, can be done easily by a plugin: 
 https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en
 

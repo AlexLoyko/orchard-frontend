@@ -1,6 +1,7 @@
 import React from 'react';
 import SearchBar from './SearchBar'
 import Geocode from 'react-geocode';
+import _ from 'lodash';
 import axios from 'axios';
 import '../control-panel.css';
 
@@ -21,11 +22,17 @@ export default class ControlPanel extends React.Component {
 
     _onClick() {
         const refer = this;
+
         if (this.state.currentInputValue.length === 0) {
             this.setState({ shouldShowWarning: true });
         } else {
             axios.get(`${BEST_PLACES_BY_GRADE_AND_CUISINE_API}?cuisine=${this.state.currentInputValue}`)
               .then(function (response) {
+                console.log(response)
+                console.log(_.isEmpty(response.data))
+                if (_.isEmpty(response.data)) {
+                  return
+                } else {
                   const places = response.data.places;
 
                   places.forEach(({ place }) => {
@@ -48,7 +55,8 @@ export default class ControlPanel extends React.Component {
                           console.log(error);
                       });
                   })
-                });
+                }
+            });
       }
     }
 
